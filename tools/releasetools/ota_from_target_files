@@ -612,8 +612,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print(" ")
 
   script.Print("-************************- ")
-  script.Print("       twistedSLIM        ")
-  script.Print("    letmedanz @XDA                  ")
+  script.Print("twistedSLIM        ")
+  script.Print("letmedanz @XDA                  ")
   script.Print("-************************- ")
   build = GetBuildProp("ro.build.date", OPTIONS.info_dict)
   script.Print("Compiled: %s"%(build));
